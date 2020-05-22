@@ -24,7 +24,7 @@ ALTER TABLE museum_city ADD CONSTRAINT city_pk PRIMARY KEY ( city );
 CREATE TABLE museum_income (
     museum_id  INTEGER NOT NULL,
     income     INTEGER,
-    "date"     INTEGER
+    income_date     INTEGER
 );
 
 ALTER TABLE museum_income ADD CONSTRAINT income_pk PRIMARY KEY ( museum_id );
